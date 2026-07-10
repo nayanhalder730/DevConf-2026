@@ -43,46 +43,148 @@ body {
 /* navbar end*/
 
 /* hero section start */
-.hero{
-    height: 100%;
-    width: 100%;
+.hero {
+  height: 100%;
+  width: 100%;
 
-    background:url("./assets/banner.jpg");
+  background: url("./assets/banner.jpg");
 
-    background-size: cover;
-    background-position: center;
+  background-size: 100%;
+  background-position: center;
 
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.hero-content{
-    color: #fff;
-    
-
+.hero-content {
+  color: #fff;
 }
 
-.hero-content h1{
-
-    font-size: 64px;
-    font-weight: 800;
-    margin-top: 100px;
-    margin-bottom: 20px;
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
-.hero-content h1 span{
-    font-style: italic;
+.hero-content h1 span {
+  font-style: italic;
 }
 
-.hero-content p{
-    font-size: 18px;
-    color: #d1d5db;
-    margin-bottom: 200px;
-    max-width: 620px;
+.hero-content p {
+  font-size: 18px;
+  color: #d1d5db;
+  margin-bottom: 200px;
+  max-width: 620px;
 }
-.hero-content button{
-    margin-bottom: 50px;
+.hero-content button {
+  margin-bottom: 50px;
 }
 /* hero section end */
-/* hero section start */
+/* meet the section start */
+.speaker {
+  padding: 50px 0;
+}
+.speaker .container h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+.speaker-person {
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+  margin: 15px;
+}
+.speaker-person img {
+  width: 100%;
+  height: auto;
+}
+.person-details {
+  padding: 20px;
+}
+.person-details h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+.person-details h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.person-details p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #575757;
+}
+
+/* meet the section end */
+/* pricing card section start */
+.section-title {
+  text-align: center;
+  margin: 50px;
+}
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-title p {
+  font-size: 18px;
+  color: #575757;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.pricing-card {
+  border: 1px solid #c3c4c7;
+  border-radius: 10px;
+  padding: 20px;
+}
+.pricing-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c3c4c7;
+}
+.pricing-card h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.pricing-card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #575757;
+  margin-bottom: 10px;
+}
+.pricing-card ul {
+  padding: 20px;
+}
+.pricing-card ul li {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.pricing-card ul li::marker {
+  color: #2563eb;
+}
+.pricing-card button {
+  display: block;
+  width: 100%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+/* pricing card section end */
+/* pricing card section start */

@@ -1,0 +1,15 @@
+Create a modern Hackathon Challenge section for a DevConf 2026 conference landing page.
+
+Requirements:
+- Use only HTML5 and CSS3.
+- Match a modern conference landing page design.
+- Use a clean white, blue, and dark navy color scheme.
+- Include a section title and short description.
+- Show three feature cards:
+  1. Prize Pool ($25,000)
+  2. Duration (24 Hours)
+  3. Team Size (2–4 Members)
+- Highlight the middle card with a dark background.
+- Add a centered "Register Your Team" button.
+- Use rounded cards, subtle shadows, hover effects, and responsive CSS.
+- Keep the design professional, clean, and visually consistent with the rest of the DevConf 2026 website.

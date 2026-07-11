@@ -13,10 +13,12 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(233, 223, 225);
 }
 /* navbar start */
 .main-header {
   background-color: #ffffff;
+  padding: 20px 0;
 }
 .container {
   max-width: 1200px;
@@ -129,7 +131,11 @@ body {
 }
 
 /* meet the section end */
+
 /* pricing card section start */
+.praicing-section{
+    margin: 50px 0;
+}
 .section-title {
   text-align: center;
   margin: 50px;
@@ -152,6 +158,11 @@ body {
   border: 1px solid #c3c4c7;
   border-radius: 10px;
   padding: 20px;
+  transition:.3s;
+}
+.pricing-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
 }
 .pricing-card h3 {
   font-size: 15px;
@@ -180,12 +191,120 @@ body {
 .pricing-card ul li::marker {
   color: #2563eb;
 }
+.pro {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
 .pricing-card button {
   display: block;
   width: 100%;
   margin: 30px auto 0;
   text-align: center;
 }
+.transparent-button {
+  background-color: #ffffff;
+  color: #080bdf;
+  border: 2px solid #063cdf;
+}
+.pricing-card .contactUs {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
 
 /* pricing card section end */
-/* pricing card section start */
+/* hackathon challenge section start */
+
+.hackathon-section{
+    padding:100px 0;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-heading h2{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.section-heading p{
+    max-width:650px;
+    margin:auto;
+    font-size:17px;
+    line-height:1.7;
+    color:#6b7280;
+}
+
+.hackathon-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.hack-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:35px 30px;
+    text-align:center;
+    transition:.3s;
+}
+
+.hack-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.hack-card h3{
+    font-size:20px;
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.hack-card h4{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.hack-card p{
+    color:#6b7280;
+    line-height:1.6;
+}
+
+.featured{
+    background:#0f172a;
+    color:#fff;
+}
+
+.featured h3,
+.featured h4,
+.featured p{
+    color:#fff;
+}
+
+.hackathon-footer{
+    margin-top:50px;
+    text-align:center;
+}
+
+.hackathon-footer .btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:16px 40px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hackathon-footer .btn:hover{
+    background:#1d4ed8;
+}
+/* hackathon challenge section end */

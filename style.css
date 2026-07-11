@@ -308,3 +308,62 @@ body {
     background:#1d4ed8;
 }
 /* hackathon challenge section end */
+
+/* footer section start */
+.footer{
+    background:#0D1B2A;
+    color:#fff;
+    padding:15px 0;
+    margin-top:0px;
+}
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-left p{
+  color:#94a3b8;
+  margin-top:20px;
+
+}
+.footer-right{
+  
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#1e293b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#2563eb;
+}
+.footer-links{
+    display:flex;
+    gap:25px;
+    padding:20px 0;
+}
+
+.footer-links a{
+    color:#94a3b8;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+/* footer section end */
